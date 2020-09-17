@@ -19,7 +19,12 @@ public class PlantPlacesController {
 		
 	}
 	
-	@RequestMapping("/")
+	/**
+	 * @author Administrator
+	 *Handle the / endpoint
+	 *@return
+	 */
+    @RequestMapping("/")
 	public String index(){
 		
 		return "start";
